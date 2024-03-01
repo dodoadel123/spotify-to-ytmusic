@@ -1,9 +1,9 @@
 from ytmusicapi import YTMusic
 from newTracks import tracks
 
-yt = YTMusic('D:\code\python\spotify\oauth.json')
+yt = YTMusic('ouath.json')
 
-playlistId = 'PLSliFNikKOx4bS8N9OnC4Fyv5wwm3khV9' 
+playlistId = 'your yt music playlist id' 
 
 trackNames = tracks.trackNames #list of track names from spotify
 artistNames = tracks.artists #list of artists' names from spotify
