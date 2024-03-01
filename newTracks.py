@@ -13,7 +13,6 @@ class tracks:
         self.client_secret = os.getenv("CLIENT_SECRET")
         self.redirect_URI = os.getenv("REDIRECT_URI")
         self.playlist_id = os.getenv("PLAYLIST_ID") 
-        self.txtFilePath = os.getenv("FILEPATH")
         
         #request variables
         self.scope = "playlist-modify-public"
@@ -29,7 +28,7 @@ class tracks:
         self.SPdurations_Min_Minus = [] #duration of the sonf in minutes but minus a second (i.1 3:21)
         
         #defining the offset that is read from the file
-        with open(r'D:\code\python\spotify\track-count.txt', 'r+') as file:
+        with open('track-count.txt', 'r+') as file:
             self.offset = int(file.read())    
             
     def spotipyRequest(self):
@@ -100,7 +99,7 @@ class tracks:
     def changeOffset(self):
         self.totalTracks = self.spotipyRequest()['total'] #total number of songs in the playlist
         
-        with open(r'D:\code\python\spotify\track-count.txt', 'r+') as file:
+        with open('track-count.txt', 'r+') as file:
             if self.offset != self.new_offset and self.new_offset != -1:
                 if self.new_offset == self.totalTracks:
                     #check if the current offset is equal to the total number of songs in the playlist
