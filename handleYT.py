@@ -1,7 +1,7 @@
 from ytmusicapi import YTMusic
 from newTracks import tracks
 
-yt = YTMusic('ouath.json')
+yt = YTMusic('your ouath.json file')
 
 playlistId = 'your yt music playlist id' 
 
