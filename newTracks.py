@@ -25,7 +25,7 @@ class tracks:
         self.SPdurations_Ms = [] #duration of the song in milli seconds
         self.SPdurations_Min = [] #duration of the song in minutes (i.e 3:22)
         self.SPdurations_Min_Plus = [] #duration of the song in minutes but plus a second (i.e 3:23)
-        self.SPdurations_Min_Minus = [] #duration of the sonf in minutes but minus a second (i.1 3:21)
+        self.SPdurations_Min_Minus = [] #duration of the sonf in minutes but minus a second (i.e 3:21)
         
         #defining the offset that is read from the file
         with open('track-count.txt', 'r+') as file:
