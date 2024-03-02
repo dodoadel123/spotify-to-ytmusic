@@ -5,7 +5,8 @@ CLIENT_SECRET="your client secret"
 REDIRECT_URI="your redirect uri"
 PLAYLIST_ID="your spotify playlist id"
 
-you'll also need to run 'pip install ytmusicapi' in the terminal to install the yt music api that i use here
+you'll also need to run 'pip install ytmusicapi' in the terminal to install the yt music api that i use here.
+
 after that u simply run 'ytmusicapi oauth' and it should creat a 'oauth.json' file 
 
 you can also set the offset in the track-count.txt to ur desire, if u want to start from the beginning of the spotify playlist
