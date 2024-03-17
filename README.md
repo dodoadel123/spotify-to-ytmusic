@@ -8,6 +8,7 @@ PLAYLIST_ID="your spotify playlist id"
 you'll also need to run:
 'pip install ytmusicapi'
 'pip install spotipy'
+'pip install dotenv'
 
 after that u simply run 'ytmusicapi oauth' and it should creat a 'oauth.json' file 
 
