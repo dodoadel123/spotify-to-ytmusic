@@ -5,7 +5,9 @@ CLIENT_SECRET="your client secret"
 REDIRECT_URI="your redirect uri"
 PLAYLIST_ID="your spotify playlist id"
 
-you'll also need to run 'pip install ytmusicapi' in the terminal to install the yt music api that i use here.
+you'll also need to run:
+'pip install ytmusicapi'
+'pip install spotipy'
 
 after that u simply run 'ytmusicapi oauth' and it should creat a 'oauth.json' file 
 
