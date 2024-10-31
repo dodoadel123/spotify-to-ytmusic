@@ -13,6 +13,6 @@ you'll also need to run:
 after that u simply run 'ytmusicapi oauth' and it should creat a 'oauth.json' file 
 
 you can also set the offset in the track-count.txt to ur desire, if u want to start from the beginning of the spotify playlist
-just leave it as it is, if you already have some songs in your yt music playlist just set the number to the last item's index
+just leave it as it is.
 
 then you should just be able to run the handleYT.py file and it should work just fine
